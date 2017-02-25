@@ -1,0 +1,15 @@
+/* shared/typography.css */
+:root {
+  --font-text: "FF DIN", sans-serif;
+  --font-weight: 300;
+  --line-height: 1.5;
+}
+
+h1 {
+  color: var(--blue);
+  transition: 1s ease-in color;
+}
+
+h1:hover {
+  color: red;
+}
